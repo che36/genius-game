@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html language="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="640" />
+<title> Genius </title>
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" type="image/x-icon" href="favicon.png" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<div id="startScreen">
+	<div><b>Escolha as opções:</b></div>
+	<label for="color"><input id="color" name="color" type="checkbox" checked disabled/>cor</label>
+	<label for="sound"><input id="sound" name="sound" type="checkbox" />som</label>
+	<label for="letters"><input id="letters" name="letters" type="checkbox" />palavras</label>
+	<label for="numbers"><input id="numbers" name="numbers" type="checkbox" />numeros</label>
+	<label for="directions"><input id="directions" name="directions" type="checkbox" />direções</label>
+	<label for="speed">rápido<input id="speed" name="speed" type="range" min="300" max="2000" step="50" />devagar</label>
+	<button id="start" autofocus>Jogar</button>
+</div>
+<div id="endScreen">
+	<div id="msg"></div>
+	<div>Você alcançou o nível: <span id="level"></span></div>
+	<button id="restart">De novo</button>
+</div>
+<script src="js/RadialMenu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
