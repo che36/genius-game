@@ -1,4 +1,6 @@
-![Alt Text](https://media.giphy.com/media/l1KVaHdNBIX3QPYBi/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/l1KVaHdNBIX3QPYBi/giphy.gif" alt="Genius Game image"/>
+</p>
 
 
 In this project, the challenge will be to create a Genesis game using only HTML, CSS and Javascript as an introductory form, the main concept being, CSS Grid, Array manipulation and Arrow Functions.
